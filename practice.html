@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/practice.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+ 
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+    <header>
+        <!-- <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+        <nav>
+            <div class="logo"></div>
+            <ul>
+                <li><a href="">광주컨트리클럽</a>
+                <div class="hidden_menu">
+                    <div>인사말</div>
+                    <div>클럽소개</div>
+                    <div>오시는 길</div>
+                </div>
+            </li>
+                <li><a href="">이용안내</a>
+                <div class="hidden_menu">
+                    <div>운영안내</div>
+                    <div>이용요금</div>
+                    <div>로컬룰 · 에티켓</div>
+                    <div>예약안내</div>
+                    <div>위약규정</div>
+                </div>
+            </li>
+                <li><a href="">코스안내</a>
+                <div class="hidden_menu">
+                    <div>동악코스</div>
+                    <div>섬진코스</div>
+                    <div>설산코스</div>
+                </div>
+            </li>
+                <li><a href="">시설안내</a>
+                <div class="hidden_menu">
+                    <div>클럽하우스</div>
+                    <div>레스토랑</div>
+                    <div>연회실</div>
+                    <div>프로샵</div>
+                    <div>그늘집</div>
+                    <div>락커</div>
+                </div>
+            </li>
+                <li><a href="">커뮤니티</a>
+                <div class="hidden_menu">
+                    <div>공지사항</div>
+                    <div>이벤트</div>
+                    <div>자료실</div>
+                </div>
+            </li>
+            </ul>
+            <div class="nav_right">
+                <div class="nav_reserve">예약 및 조회</div>
+                <div class="menu_icon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </nav>
+        <div class="h_main">
+            <div class="h_main_left">
+                <div>운치있는 라운드, <br>
+                자연과 함께하는 광주컨트리클럽</div>
+                <div>청명한 하늘과 푸른 들판이 함께하는 공간</div>
+                <div><  ></div>
+            </div>
+
+
+
+            <div class="h_main_right">
+                <div>
+                    <table class="Calendar">
+                        <thead>
+                            <tr>
+                                <td onClick="prevCalendar();" style="cursor:pointer;"><div id="detail_arrow" class="right_arrow calendar_left"></div></td>
+                                <td colspan="5">
+                                    <span id="calYear"></span>년
+                                    <span id="calMonth"></span>월
+                                </td>
+                                <td onClick="nextCalendar();" style="cursor:pointer;"><div id="detail_arrow" class="right_arrow calendar_right"></div></td>
+                            </tr>
+                            <tr>
+                                <td class="sun">SUN</td>
+                                <td>MON</td>
+                                <td>TUE</td>
+                                <td>WED</td>
+                                <td>THU</td>
+                                <td>FRI</td>
+                                <td class="sat">SAT</td>
+                            </tr>
+                        </thead>
+            
+                        <tbody>
+                        </tbody>
+                    </table>
+                    <div class="login flex">
+                        <div>
+                            <div class="flex">
+                                <div>아이디</div>
+                                <input type="text" placeholder="아이디">
+                            </div>
+                            <div class="flex">
+                                <div>비밀번호</div>
+                                <input type="password" placeholder="비밀번호">
+                            </div>
+                        </div>
+                        <div class="login_btn">로그인</div>
+                    </div>
+                    <div class="join">
+                        <div>회원가입 |&nbsp;</div>
+                        <div>아이디/비밀번호 찾기</div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+        
+    </header>
+    
+    
+    
+    <main>
+        <section class="flex">
+            <div>
+                <div class="beige_box"></div>
+                <div class="cc">KWANGJU CC</div>
+                <div class="beige_box_big_txt">바쁜 일상을 벗어나<br>
+                    온전한 휴식과 힐링이 만나는 곳
+                </div>
+                <div class="beige_box_small_txt">동악산과 설산, 그리고 섬진강이 흐르는<br> 
+                    대자연과 함께하는 KWANGJU CC</div>
+                <div class="beige_box_img"></div>
+            </div>
+            <div>
+                <div class="s_first_right_img"></div>
+                <div class="beige_box_big_txt2">아름답고 찬란한 자연의 기운을 <br>온전히 느낄 수 있는 곳</div>
+                <div class="best_golf">BEST GOLF</div>
+            </div>
+        </section>
+
+        <section>
+            <h1>생동감 넘치는 자연의 기운이<br>균형있게 조화된 최고의 라이딩 코스</h1>
+            <div class="detail">
+                <div></div>
+                <div>자세히 알아보기</div>
+                <div id="detail_arrow" class="right_arrow"></div>
+            </div>
+            <div class="course">
+                <div>
+                    <div class="course_txt">
+                        <div>동악 COURSE</div>
+                        <div class="right_arrow course_arrow"></div>
+                    </div>
+                    <div class="course_img course1"></div>
+                </div>
+                <div>
+                    <div class="course_txt">
+                        <div>섬진 COURSE</div>
+                        <div class="right_arrow course_arrow"></div>
+                    </div>
+                    <div class="course_img course2"></div>
+                </div>
+                <div>
+                    <div class="course_txt">
+                        <div>설산 COURSE</div>
+                        <div class="right_arrow course_arrow"></div>
+                    </div>
+                    <div class="course_img course3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex">
+            <div>
+                <div class="cook"></div>
+                <div class="wine"></div>
+                <div class="best_golf second_golf">BEST GOLF</div>
+            </div>
+            <div>
+                <div class="second_beige_box"></div>
+                <div class="s_second_right">
+                    <div class="cc second_cc">KWANGJU CC</div>
+                    <div class="res">RESTAURANT</div>
+                    <div class="chef">일류 주방장이 만드는<br>최고의 요리</div>
+                    <div class="best_favor">최상의 맛을 즐기고 다양한 부대시설을 이용해보세요</div>
+                    <div class="detail">
+                        <div></div>
+                        <div>자세히 알아보기</div>
+                        <div id="detail_arrow" class="right_arrow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="facility">
+            <h1>특별한 당신을 위한,<br>최고만을 위한 클럽하우스</h1>
+            <ul class="flex">
+                <li><a href="">클럽하우스</a></li>
+                <li><a href="">레스토랑</a></li>
+                <li><a href="">연회실</a></li>
+                <li><a href="">프로샵</a></li>
+                <li><a href="">그늘집</a></li>
+                <li><a href="">락커</a></li>
+            </ul>
+            <div class="flex">
+                <div class="facility_left_pic"></div>
+                <div>
+                    <div class="facility_right_pic"></div>
+                    <h2>클럽하우스</h2>
+                    <div>회원여러분의 품격과 여유를 광주컨트리클럽이 함께하겠습니다.</div>
+                    <div class="detail">
+                        <div></div>
+                        <div>자세히 알아보기</div>
+                        <div id="detail_arrow" class="right_arrow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>NOTICE & EVENT</h2>
+            <div class="flex">
+                <h1>KWANGJU CC의 최신 소식을 알려드립니다</h1>
+                <div class="notice">소식 전체보기</div>
+            </div>
+            <div class="swiper notice_pic">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide notice_pic1">
+                        <div class="notice_inbox">
+                            <h2>6월<br>그린피 안내</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide notice_pic2">
+                        <div class="notice_inbox">
+                            <h2>대모집<br>주중 연회원</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide notice_pic3">
+                        <div class="notice_inbox">
+                            <h2>위약규정<br>변경안내</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide notice_pic4">
+                        <div class="notice_inbox">
+                            <h2>셀프라운드<br>시행안내</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide notice_pic5">
+                        <div class="notice_inbox">
+                            <h2>최신<br>날씨정보</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!-- <div class="notice_pic">
+                <div class="notice_pic1">
+                    <div>
+                        <h2>6월<br>그린피 안내</h2>
+                    </div>
+                </div>
+                <div class="notice_pic2">
+                    <div>
+                        <h2>대모집<br>주중 연회원</h2>
+                    </div>
+                </div>
+                <div class="notice_pic3">
+                    <div>
+                        <h2>위약규정<br>변경안내</h2>
+                    </div>
+                </div>
+               
+            </div>
+            <div></div> -->
+        </section>
+        <ul class="hi">
+            <li><a href="">안녕</a></li>
+            <li><a href="">ㅋㅋ</a></li>
+            <li><a href="">ㅎㅎ</a></li>
+            <li><a href="">바보</a></li>
+        </ul>
+    </main>
+    <footer>
+        <div class="f_top">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6511.661391564639!2d127.1760296967482!3d35.310188067312545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3571dda96b5d5af9%3A0xb8d966cb71e99ace!2z6rSR7KO8IOy7qO2KuOumrO2BtOufvQ!5e0!3m2!1sko!2skr!4v1691640037989!5m2!1sko!2skr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="f_top_right">
+                <h1>
+                    자연속의 힐링공간<br>
+                    KWANGJUCC에서<br>
+                    여러분을 기다리고 있습니다.
+                </h1>
+                <div class="big_nature">
+                    대자연 속 진정한 휴식이 있는 곳 KWANGJU CC
+                </div>
+                <div class="address">전라남도 곡성군 옥과면 입면로 435</div>
+                <div>
+                    <ul>
+                        <li>
+                            <div class="map_icon icon1"></div>
+                            <div>네이버지도</div>
+                        </li>
+                        <li>
+                            <div class="map_icon icon2"></div>
+                            <div>카카오지도</div>
+                        </li>
+                        <li>
+                            <div class="map_icon icon3"></div>
+                            <div>구글지도</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="f_bot">
+            <div>
+                <h1>온전한 쉼과 여유를 위해<br>
+                자연 속에 깃든 완벽한 공간</h1>
+                <ul>
+                    <li>
+                        <div class="title">대표이사</div>
+                        <div class="content">이&nbsp;영</div>
+                    </li>
+                    <li>
+                        <div class="title">사업자번호</div>
+                        <div class="content">408-81-03379</div>
+                    </li>
+                    <li>
+                        <div class="title">통신판매신고</div>
+                        <div class="content">제 2009-강원원주00137호</div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="title">주소</div>
+                        <div class="content">전라남도 곡성군 옥과면 입면로 455</div>
+                    </li>
+                    <li>
+                        <div class="title">대표전화</div>
+                        <div class="content">061-339-7100</div>
+                    </li>
+                    <li>
+                        <div class="title">팩스</div>
+                        <div class="content">061-362-2797</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="f_bot_right">
+                <h1>고객센터</h1>
+                <div class="call">
+                    <h2>대표전화</h2>
+                    <div>061 - 339 - 7100</div>
+                </div>
+                <div class="call">
+                    <h2>예약전화</h2>
+                    <div>061 - 339 - 7191</div>
+                </div>
+                <ul class="infor">
+                    <li>개인정보처리방침</li>
+                    <li>회칙 및 이용약관</li>
+                    <li>이용약관(대중제)</li>
+                    <li>오시는 길</li>
+                </ul>
+                <div class="copyright">Copyright ⓒ 2016.Kwangju Country Club. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/practice.js"></script>
+</body>
+</html>
